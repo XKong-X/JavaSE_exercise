@@ -1,0 +1,16 @@
+class SwitchCaseTest {
+	public static void main(String[] args) {
+		int s = 99;
+		switch(s%60){
+		case 1:
+			System.out.println("及格");
+		    break;
+		case 0:
+		    System.out.println("不及格");
+			 break;
+		default:
+			System.out.println("成绩有误");
+		    break;
+		}
+	}
+}
