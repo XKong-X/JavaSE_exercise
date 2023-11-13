@@ -1,0 +1,9 @@
+class SwitchTest {
+	public static void main(String[] args) {
+		char ch1='a';
+		switch(ch1)
+			case 'a':
+			System.out.println("1");
+		
+	}
+}
