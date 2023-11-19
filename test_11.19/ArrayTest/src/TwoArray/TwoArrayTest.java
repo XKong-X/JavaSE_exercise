@@ -26,6 +26,31 @@ public class TwoArrayTest {
                 System.out.print(arr4[i][j]);
             }
             System.out.println();
+
+            int[][] arr5 = new int[3][2];
+
+            System.out.println(arr5[0]);
+            System.out.println(arr5[1]);
+
+            System.out.println(arr5[0][0]);
+
+            boolean[][] arr6 = new boolean[3][4];
+
+            System.out.println(arr6[0]);
+
+            System.out.println(arr6[0][0]);
+
+            String[][]arr7=new String[4][2];
+
+            System.out.println(arr7[0]);
+
+            System.out.println(arr7[0][0]);
+
+            int[][]arr8=new int[4][];
+
+            System.out.println(arr8[0]);//null
+
+            System.out.println(arr8[0][0]);//报错
         }
     }
 }
