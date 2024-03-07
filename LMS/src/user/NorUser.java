@@ -18,7 +18,7 @@ public class NorUser extends User {
         super(name);
         super.iOperations = new IOperation[]{
                 new ExitOperation(),
-                new AddOperation(),
+                new FindOperation(),
                 new BorrowOperation(),
                 new ReturnOperation()
         };

@@ -55,7 +55,7 @@ public class Book {
         this.price = price;
     }
 
-    public boolean isCondition() {
+    public boolean getCondition() {
         return condition;
     }
 

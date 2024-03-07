@@ -17,6 +17,12 @@ import java.util.Scanner;
 public class FindOperation implements IOperation {
     @Override
     public void work(BookList bookList) {
+        //判断是否有书
+        if (bookList.getBook(0) == null) {
+            System.out.println("当前书架为空！");
+            return;
+        }
+
         System.out.print("请输入要查找的图书的书名：");
         Scanner in = new Scanner(System.in);
         String name = in.nextLine();
